@@ -7,11 +7,10 @@
     <title>Kallam Samad</title>
 </head>
 <body>
-
+<?php require_once "nav.php"?>
 <div class="page">
     <div class="header">
         <div class="container">
-        <?php require_once "nav.php"?>
         <div class="headertop"></div>
         <div class="headermiddle"></div>
         </div>
