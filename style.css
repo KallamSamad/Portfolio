@@ -15,3 +15,10 @@ body {
   width: min(1100px, 90%);
   margin: 0 auto;
 }
+nav{
+  display: block;
+
+}
+a li ul{
+text-decoration: none;
+}
