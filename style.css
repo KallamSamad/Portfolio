@@ -48,20 +48,48 @@ color: rgb(167, 167, 167);
   font-size: large;
 }
 a:hover{
-  color: #e94560;
+  color: #1f2937;
 }
 
 .hero{
   padding: 0.4rem;
   font-family:'Poppins', Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
 
 }
 
+.hero2{
+  padding: 0.4rem;
+  font-family:'Poppins', Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+
+}
 .nav-cont{
   flex:1;
-  background-color: #e94560;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
 
+.pfp{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.2rem solid white;
+}
+.pfpcont{
+padding: 1rem;
+}
+
+.navtop{
+  background-color: #245191;
+}
+
+.herocont{
+  display: flex;
+  flex-direction: column;
+}
