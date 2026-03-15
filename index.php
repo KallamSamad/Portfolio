@@ -9,13 +9,17 @@
 
 <div class="page">
     <div class="header">
-         <div class="headertop"></div>
+        <div class="container">
+        <div class="headertop"></div>
         <div class="headermiddle"></div>
+        </div>
     </div>
     <div class="main">
+        <div class="container">
         <div class="maintop"></div>
         <div class="mainmiddle"></div>
         <div class="mainbottom"></div>
+        </div>
     </div>
     <div class="footer">
 
