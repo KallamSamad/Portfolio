@@ -37,7 +37,7 @@ nav{
 a,li,ul{
 text-decoration: none;
 list-style-type: none;
-color: silver;
+color: rgb(167, 167, 167);
 }
 .list{
   display: flex;
@@ -48,11 +48,12 @@ color: silver;
   font-size: large;
 }
 a:hover{
-  color: purple;
+  color: #e94560;
 }
 
 .hero{
-  padding-bottom: 1rem;
+  padding: 0.4rem;
+  font-family:'Poppins', Helvetica, sans-serif;
 
 }
 
@@ -61,6 +62,6 @@ a:hover{
   background-color: #e94560;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
