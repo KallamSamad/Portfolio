@@ -1,7 +1,7 @@
 <div class="navtop">
 <div class="welcome"> 
 <div class="pfpcont"> 
-<img  class="pfp" src="/Assets/Images/pfp.jpg">
+<img  class="pfp" src="Assets/Images/pfp.jpg">
 </div>
 <h1 class="bighero">Welcome to my Portfolio!</h1>
 </div> 
