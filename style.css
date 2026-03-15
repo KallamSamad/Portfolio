@@ -5,6 +5,11 @@
 
 }
 
+h2{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: #16161D;
 }
@@ -22,8 +27,11 @@ body {
   margin: 0 auto;
 }
 nav{
-  display: block;
-  background-color: maroon;
+
+  background-color:#F9F9F9 ;
+  height: 5rem;
+  width: 50%;
+  margin-left: auto;
 
 }
 a,li,ul{
@@ -31,12 +39,28 @@ text-decoration: none;
 list-style-type: none;
 color: silver;
 }
-ul{
+.list{
   display: flex;
   flex-direction: row;
   gap: 1rem;
   justify-content: flex-end;
+  padding: 1rem;
+  font-size: large;
 }
 a:hover{
   color: purple;
 }
+
+.hero{
+  padding-bottom: 1rem;
+
+}
+
+.nav-cont{
+  flex:1;
+  background-color: #e94560;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

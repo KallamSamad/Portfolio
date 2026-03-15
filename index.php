@@ -7,6 +7,7 @@
     <title>Kallam Samad</title>
 </head>
 <body>
+    
 <?php require_once "nav.php"?>
 <div class="page">
     <div class="header">
