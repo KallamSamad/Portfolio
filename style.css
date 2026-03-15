@@ -19,6 +19,7 @@ nav{
   display: block;
 
 }
-a li ul{
+a,li,ul{
 text-decoration: none;
+list-style-type: none;
 }
