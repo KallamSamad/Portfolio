@@ -233,7 +233,22 @@ padding: 1rem;
   }
 }
 
-/* Tablet */
 @media (max-width: 768px){
+  nav{
+    width: 60%;
+  }
 
+  .list{
+    gap: 0.5rem;
+    font-size: medium;
+  }
+
+  .nav-cont{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .herocont{
+    min-width: 0;
+  }
 }
