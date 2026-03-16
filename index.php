@@ -32,5 +32,13 @@
 
 
 
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const navCont = document.querySelector(".nav-cont");
+
+toggle.addEventListener("click", () => {
+  navCont.classList.toggle("active");
+});
+</script>
 </body>
 </html>
