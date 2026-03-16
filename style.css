@@ -29,9 +29,9 @@ body {
 nav{
 
   background-color:#F9F9F9 ;
-  height: 5rem;
   width: 50%;
   margin-left: auto;
+  height: 6rem;
 
 }
 a,li,ul{
@@ -69,12 +69,14 @@ a:hover{
 
 }
 .nav-cont{
+  display: flex;
+  height: 6rem;
   flex:1;
   background-color: #1f2937;
-  display: flex;
-  height: 5rem;
+  width: 100%;
   justify-content: center;
   align-items: baseline;
+  flex-direction: row;
 }
 
 .pfp{
@@ -90,7 +92,6 @@ padding: 1rem;
 
 .navtop{
   background-color: #245191;
-  height: 100px;
   display: flex;
   
 }
@@ -147,9 +148,10 @@ body {
 nav{
 
   background-color:#F9F9F9 ;
-  height: 5rem;
+  height: 6rem;
   width: 50%;
-  margin-left: auto;
+  margin-left: 0;
+  display: flex;
 
 }
 a,li,ul{
@@ -164,7 +166,7 @@ font-weight: 100;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
-  font-size: medium;
+  font-size: small;
 }
 a:hover{
   color: #3B82F6;
@@ -178,23 +180,25 @@ a:hover{
 }
 
 .hero2{
+  font-size: medium;
   font-family:'Poppins', Helvetica, sans-serif;
   font-weight: 500;
   color: white;
+ 
 
 }
 .nav-cont{
   flex:1;
   background-color: #1f2937;
   display: flex;
-  height: 5rem;
+  height: 6rem;
   justify-content: center;
   align-items: baseline;
 }
 
 .pfp{
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 90%;
   object-fit: cover;
   border: 0.2rem solid white;
@@ -205,6 +209,7 @@ padding: 1rem;
 
 .navtop{
   background-color: #245191;
+  display: flex;
 }
 
 .herocont{
@@ -217,6 +222,7 @@ padding: 1rem;
   flex-direction: row;
 }
 .bighero{
+  font-size: x-large;
   padding: 1rem;
   font-family:'Poppins', Helvetica, sans-serif;
   font-weight: 500;

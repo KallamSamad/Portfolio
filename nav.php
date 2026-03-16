@@ -6,6 +6,10 @@
 <h1 class="bighero">Welcome to my Portfolio!</h1>
 </div> 
 
+ 
+ 
+ 
+</div>
 <div class="nav-cont"> 
   <div class="herocont">
  <h2 class="hero">Kallam Samad</h2>
@@ -24,6 +28,4 @@
 </ul>
 
 </nav>
- 
-</div>
 </div>
