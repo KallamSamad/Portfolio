@@ -10,26 +10,20 @@
 <body>
     
 <?php require_once "nav.php"?>
-<div class="page">
-    <div class="header">
-        <div class="container">
-        <div class="headertop"></div>
-        <div class="headermiddle"></div>
-        </div>
-    </div>
+
+<div class="wrapper"> 
     <div class="main">
-        <div class="container">
+        
         <div class="maintop"></div>
-        <div class="mainmiddle"></div>
-        <div class="mainbottom"></div>
+
+        <div class="mainmiddle">
+            <p>Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
         </div>
-    </div>
-    <div class="footer">
+            <?php require_once "footer.php"?>
+     </div>
+ </div>
 
-    </div>
-</div>
-
-
+  
 
 
 <script>
@@ -41,4 +35,5 @@ toggle.addEventListener("click", () => {
 });
 </script>
 </body>
+ 
 </html>
