@@ -462,7 +462,7 @@ nav a:hover {
     color: white;
     border: none;
     padding: 1rem;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-family: inherit;
     cursor: pointer;
   }
