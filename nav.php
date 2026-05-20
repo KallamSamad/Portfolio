@@ -20,8 +20,8 @@
 
   <nav class="site-nav">
     <ul class="list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="projects.php">Projects</a></li>
       <li><a href="#">Resume</a></li>
       <li><a href="#">Blog</a></li>
     </ul>
