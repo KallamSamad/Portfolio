@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
- }
+}
 
 html,
 body {
@@ -11,13 +11,12 @@ body {
 
 body {
   background: linear-gradient(135deg, #0f0f18, #16161D);
+  background-color: #0f0f18;
   font-family: 'Poppins', Helvetica, sans-serif;
   overflow-x: hidden;
-    background-color: #0f0f18;
-
 }
 
-.game{
+.game {
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
 }
@@ -37,10 +36,12 @@ li,
 ul {
   text-decoration: none;
   list-style-type: none;
-  color: #374151;
+  color: inherit;
   font-family: 'Poppins', Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
+
+
 
 a:hover {
   color: #3B82F6;
@@ -159,14 +160,17 @@ nav a:hover {
   max-width: 100%;
 }
 
-.mainmiddle p {
+.mainmiddle p,
+.mainmiddle li {
   margin-bottom: 1rem;
 }
 
 .mainmiddle .sentence1,
 .mainmiddle .sentence2,
 .mainmiddle .sentence3,
-.mainmiddle .sentence4 {
+.mainmiddle .sentence4,
+.mainmiddle .sentence5,
+.mainmiddle .sentence6 {
   padding-left: 10px;
   font-size: clamp(0.85rem, 2vw, 1.1rem);
   display: block;
@@ -175,28 +179,39 @@ nav a:hover {
   width: 0;
   max-width: 100%;
   line-height: 1.6;
+  color: #F9F9F9;
 }
 
 .mainmiddle .sentence1 {
-  animation: typing 3.5s steps(70, end) 0s forwards;
+  animation: typing 2s steps(70, end) 0s forwards;
 }
 
 .mainmiddle .sentence2 {
-  animation: typing 3.5s steps(70, end) 4s forwards;
+  animation: typing 2s steps(70, end) 2.2s forwards;
 }
 
 .mainmiddle .sentence3 {
-  animation: typing 3.5s steps(70, end) 8s forwards;
+  animation: typing 2s steps(70, end) 4.4s forwards;
 }
 
 .mainmiddle .sentence4 {
-  animation: typing 3.5s steps(70, end) 12s forwards;
+  animation: typing 2s steps(70, end) 6.6s forwards;
+}
+
+.mainmiddle .sentence5 {
+  animation: typing 2s steps(70, end) 8.8s forwards;
+}
+
+.mainmiddle .sentence6 {
+  animation: typing 2s steps(70, end) 11s forwards;
 }
 
 .mainmiddle .sentence1::after,
 .mainmiddle .sentence2::after,
 .mainmiddle .sentence3::after,
-.mainmiddle .sentence4::after {
+.mainmiddle .sentence4::after,
+.mainmiddle .sentence5::after,
+.mainmiddle .sentence6::after {
   content: "█";
   display: inline;
   margin-left: 4px;
@@ -206,30 +221,60 @@ nav a:hover {
   opacity: 1;
   animation:
     blink-caret .75s step-end infinite,
-    hide-cursor 0s linear 4s forwards;
+    hide-cursor 0s linear 2.2s forwards;
 }
 
 .mainmiddle .sentence2::after {
   opacity: 0;
   animation:
-    show-cursor 0s linear 4s forwards,
-    blink-caret .75s 4s step-end infinite,
-    hide-cursor 0s linear 8s forwards;
+    show-cursor 0s linear 2.2s forwards,
+    blink-caret .75s 2.2s step-end infinite,
+    hide-cursor 0s linear 4.4s forwards;
 }
 
 .mainmiddle .sentence3::after {
   opacity: 0;
   animation:
-    show-cursor 0s linear 8s forwards,
-    blink-caret .75s 8s step-end infinite,
-    hide-cursor 0s linear 12s forwards;
+    show-cursor 0s linear 4.4s forwards,
+    blink-caret .75s 4.4s step-end infinite,
+    hide-cursor 0s linear 6.6s forwards;
 }
 
 .mainmiddle .sentence4::after {
   opacity: 0;
   animation:
-    show-cursor 0s linear 12s forwards,
-    blink-caret .75s 12s step-end infinite;
+    show-cursor 0s linear 6.6s forwards,
+    blink-caret .75s 6.6s step-end infinite,
+    hide-cursor 0s linear 8.8s forwards;
+}
+
+.mainmiddle .sentence5::after {
+  opacity: 0;
+  animation:
+    show-cursor 0s linear 8.8s forwards,
+    blink-caret .75s 8.8s step-end infinite,
+    hide-cursor 0s linear 11s forwards;
+}
+
+.mainmiddle .sentence6::after {
+  opacity: 0;
+  animation:
+    show-cursor 0s linear 11s forwards,
+    blink-caret .75s 11s step-end infinite;
+}
+
+.mainmiddle a {
+  color: #F9F9F9;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.mainmiddle i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .side {
@@ -338,7 +383,6 @@ nav a:hover {
     transform: translateY(0);
   }
 }
-
 
 @keyframes fadeIn {
   from {
@@ -510,11 +554,15 @@ nav a:hover {
   .mainmiddle .sentence1,
   .mainmiddle .sentence2,
   .mainmiddle .sentence3,
-  .mainmiddle .sentence4 {
+  .mainmiddle .sentence4,
+  .mainmiddle .sentence5,
+  .mainmiddle .sentence6 {
     width: auto;
     opacity: 0;
     white-space: normal;
     overflow: visible;
+    color: #F9F9F9;
+    font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 1rem;
     padding-left: 0;
     animation: fadeInMobile 0.6s ease forwards;
@@ -536,32 +584,40 @@ nav a:hover {
     animation-delay: 1.8s;
   }
 
+  .mainmiddle .sentence5 {
+    animation-delay: 2.4s;
+  }
+
+  .mainmiddle .sentence6 {
+    animation-delay: 3s;
+  }
+
   .mainmiddle .sentence1::after,
   .mainmiddle .sentence2::after,
   .mainmiddle .sentence3::after,
-  .mainmiddle .sentence4::after {
+  .mainmiddle .sentence4::after,
+  .mainmiddle .sentence5::after,
+  .mainmiddle .sentence6::after {
     content: "";
     display: none;
   }
+
   .menu-toggle,
-.side-toggle {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  .side-toggle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 48px;
+    padding: 0 1rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+  }
 
-  height: 48px;
-  padding: 0 1rem;
-  color: white;
-
-  border: none;
-  font-size: 1rem;
-  font-family: inherit;
-  cursor: pointer;
-}
-.side-toggle{
-  padding-bottom: 10px;
-  background: linear-gradient(90deg, #172033, #1f2937);
-
- 
-}
+  .side-toggle {
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #172033, #1f2937);
+  }
 }

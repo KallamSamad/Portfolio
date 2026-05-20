@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kallam Samad</title>
 </head>
@@ -16,13 +18,53 @@
         
         <div class="maintop"></div>
 
-        <div class="mainmiddle">
-            <p class="sentence1">Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
-            <p class="sentence2">The purpose of this website is to showcase my programming ability and why I should be employed.</p>
-            <p class="sentence3">Feel free to browse my projects, my resume and blog. I will actively make additions and changes to these projects.</p>
-            <p class="sentence4">Do not hesitate to make any enquries, you can <a href="contact.php">contact me here</a> or fill in the form to keep in touch.</p>
+       <ul class="mainmiddle">
 
-        </div>
+    <li class="sentence1">
+        <i class="fa-brands fa-github"></i>
+        Github:
+        <a href="https://github.com/KallamSamad">
+            KallamSamad
+        </a>
+    </li>
+
+    <li class="sentence2">
+        <i class="fa-solid fa-envelope"></i>
+        Work email:
+        Kallam.Samad@student.shu.ac.uk
+    </li>
+
+    <li class="sentence3">
+        <i class="fa-solid fa-envelope"></i>
+        Personal email:
+        kallamsamad@gmail.com
+    </li>
+
+    <li class="sentence4">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/kallam-samad-1657773b1/">
+            Kallam Samad
+        </a>
+    </li>
+
+    <li class="sentence5">
+        <i class="fa-brands fa-facebook"></i>
+        Facebook:
+        <a href="https://www.facebook.com/kallam.samad.73">
+            Kallam Samad
+        </a>
+    </li>
+
+    <li class="sentence6">
+        <i class="fa-brands fa-instagram"></i>
+        Instagram:
+        <a href="https://www.instagram.com/kallamsamad/">
+            @kallamsamad
+        </a>
+    </li>
+
+</ul>
       </div>
  </div>
  <div class="side">
