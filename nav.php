@@ -16,7 +16,7 @@
     <h4 class="hero2">BSc Computer Science with placement year</h4>
   </div>
 
-  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <button class="menu-toggle" aria-label="Open menu">☰ Portal</button>
 
   <nav class="site-nav">
     <ul class="list">
