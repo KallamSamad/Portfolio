@@ -426,6 +426,29 @@ nav a:hover {
     overflow-x: hidden;
   }
 
+
+  .game {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.game iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 75vh;
+  min-height: 600px;
+
+  border: none;
+  border-radius: 16px;
+
+  overflow: hidden;
+  background: #000;
+
+  display: block;
+}
+
   .navtop {
     flex-direction: column;
     align-items: center;

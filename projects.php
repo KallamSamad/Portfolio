@@ -17,7 +17,8 @@
         <div class="maintop">
 
          <h1>Project 1 - Brick Breaker</h1>
-         <h3>Touch to start!</h3>
+         <h3>Touch to start !</h3>
+         <h4>NB - may take time to load</h4>
 
         <div class="game">
             
