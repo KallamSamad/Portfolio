@@ -26,7 +26,9 @@
       </div>
  </div>
  <div class="side">
- <button class="side-toggle">☰ Contact</button>
+    <section class="project-card">
+</section>
+ <button class="side-toggle"> Contact</button>
  <aside class="side-panel">
 <form action="contact-submit.php" method="POST" id="contactForm">
    <p>Please fill this form to keep in touch.</p>
