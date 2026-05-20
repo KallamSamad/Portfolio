@@ -10,7 +10,7 @@
 <body>
     
 <?php require_once "nav.php"?>
-
+<div class="maindiv">
 <div class="wrapper"> 
     <div class="main">
         
@@ -26,7 +26,10 @@
             <?php require_once "footer.php"?>
      </div>
  </div>
-
+ <div class="side">
+ <p>Feel free to browse projects</p>  
+ </div>
+</div>
   
 
 
