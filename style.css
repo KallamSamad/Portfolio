@@ -2,8 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #0f0f18;
-}
+ }
 
 html,
 body {
@@ -14,6 +13,8 @@ body {
   background: linear-gradient(135deg, #0f0f18, #16161D);
   font-family: 'Poppins', Helvetica, sans-serif;
   overflow-x: hidden;
+    background-color: #0f0f18;
+
 }
 
 img {
