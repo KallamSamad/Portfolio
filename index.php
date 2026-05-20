@@ -10,35 +10,57 @@
 <body>
     
 <?php require_once "nav.php"?>
-<div class="page">
-    <div class="header">
-        <div class="container">
-        <div class="headertop"></div>
-        <div class="headermiddle"></div>
-        </div>
-    </div>
+<div class="maindiv">
+<div class="wrapper"> 
     <div class="main">
-        <div class="container">
+        
         <div class="maintop"></div>
-        <div class="mainmiddle"></div>
-        <div class="mainbottom"></div>
+
+        <div class="mainmiddle">
+            <p class="sentence1">Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
+            <p class="sentence2">The purpose of this website is to showcase my programming ability and why I should be employed.</p>
+            <p class="sentence3">Feel free to browse my projects, my resume and blog. I will actively make additions and changes to these projects.</p>
+            <p class="sentence4">Do not hesitate to make any enquries, you can <a href="contact.php">contact me here</a> and fill in the form to keep in touch.</p>
+
         </div>
-    </div>
-    <div class="footer">
+      </div>
+ </div>
+ <div class="side">
+ <button class="side-toggle">☰ Contact</button>
+ <aside class="side-panel">
+<form action="contact-submit.php" method="POST" id="contactForm">
+   <p>Please fill this form to keep in touch.</p>
+  <input type="text" name="name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Your email" required>
+  <textarea name="message" placeholder="Your message" required></textarea>
+  <button type="submit">Send enquiry</button>
+  <p id="formMessage"></p>
+</form>
+</aside>
+ </div>
+             <?php require_once "footer.php"?>
 
-    </div>
 </div>
-
-
+  
 
 
 <script>
 const toggle = document.querySelector(".menu-toggle");
 const navCont = document.querySelector(".nav-cont");
 
+const sideToggle = document.querySelector(".side-toggle");
+const side = document.querySelector(".side");
+
 toggle.addEventListener("click", () => {
   navCont.classList.toggle("active");
+  side.classList.remove("active");
+});
+
+sideToggle.addEventListener("click", () => {
+  side.classList.toggle("active");
+  navCont.classList.remove("active");
 });
 </script>
 </body>
+ 
 </html>
