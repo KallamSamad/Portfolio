@@ -17,7 +17,11 @@
         <div class="maintop"></div>
 
         <div class="mainmiddle">
-            <p>Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
+            <p class="sentence1">Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
+            <p class="sentence2">The purpose of this website is to showcase my programming ability and why I should be employed.</p>
+            <p class="sentence3">Feel free to browse my projects, my resume and blog. I will actively make additions and changes to these projects.</p>
+            <p class="sentence4">Do not hesitate to make any enquries, you can <a href="contact.php">contact me here</a> and fill in this form to keep in touch.</p>
+
         </div>
             <?php require_once "footer.php"?>
      </div>

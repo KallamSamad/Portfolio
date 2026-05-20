@@ -19,7 +19,7 @@ img {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .container {
@@ -96,12 +96,7 @@ padding: 1rem;
   display: flex;
   
 }
-
-.herocont{
-  display: flex;
-  flex-direction: column;
-}
-
+ 
 .welcome{
   display: flex;
   flex-direction: row;
@@ -117,6 +112,126 @@ padding: 1rem;
   display: none;
 }
 
+
+ 
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+
+.herocont{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+ 
+.wrapper{
+  min-height: 100%;
+  position: relative;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #F9F9F9;
+}
+.foot{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #F9F9F9;
+  position: fixed;
+  left:0;
+  bottom: 0;
+  background-color: black;
+  width: 100vw;
+}
+.mainmiddle {
+  padding-top: 100px;
+  padding-left: 10px;
+}
+.mainmiddle .sentence1,
+.mainmiddle .sentence2,
+.mainmiddle .sentence3,
+.mainmiddle .sentence4 {
+  padding-left: 10px;
+  font-size: larger;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+.mainmiddle .sentence1 {
+  animation: typing 3.5s steps(70, end) 0s forwards;
+}
+
+.mainmiddle .sentence2 {
+  animation: typing 3.5s steps(70, end) 4s forwards;
+}
+
+.mainmiddle .sentence3 {
+  animation: typing 3.5s steps(70, end) 8s forwards;
+}
+
+.mainmiddle .sentence4 {
+  animation: typing 3.5s steps(70, end) 12s forwards;
+}
+
+.mainmiddle .sentence1::after,
+.mainmiddle .sentence2::after,
+.mainmiddle .sentence3::after,
+.mainmiddle .sentence4::after {
+  content: "█";
+  display: inline;
+  margin-left: 4px;
+}
+
+.mainmiddle .sentence1::after {
+  opacity: 1;
+  animation:
+    blink-caret .75s step-end infinite,
+    hide-cursor 0s linear 4s forwards;
+}
+
+.mainmiddle .sentence2::after {
+  opacity: 0;
+  animation:
+    show-cursor 0s linear 4s forwards,
+    blink-caret .75s 4s step-end infinite,
+    hide-cursor 0s linear 8s forwards;
+}
+
+.mainmiddle .sentence3::after {
+  opacity: 0;
+  animation:
+    show-cursor 0s linear 8s forwards,
+    blink-caret .75s 8s step-end infinite,
+    hide-cursor 0s linear 12s forwards;
+}
+
+.mainmiddle .sentence4::after {
+  opacity: 0;
+  animation:
+    show-cursor 0s linear 12s forwards,
+    blink-caret .75s 12s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes show-cursor {
+  to { opacity: 1; }
+}
+
+@keyframes hide-cursor {
+  to { opacity: 0; }
+}
+
+@keyframes blink-caret {
+  50% { opacity: 0; }
+}
 
  /* Phone */
  @media (max-width: 480px){
@@ -234,37 +349,9 @@ padding: 1rem;
     display: block;
   }
 }
+ 
 
  
-.main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    
-}
-
-.wrapper{
-  min-height: 100vh;
-  position: relative;
-  font-family: 'Poppins', Helvetica, sans-serif;
-  color: #F9F9F9;
-}
-.foot{
-  display: flex;
-  flex-direction: column;
-  font-family: 'Poppins', Helvetica, sans-serif;
-  color: #F9F9F9;
-  position: fixed;
-  left:0;
-  bottom: 0;
-  background-color: black;
-  width: 100vw;
-}
-
-.mainmiddle{
-  padding:10vh;
-  font-size: larger;
-}
 @media (max-width: 768px){
   nav{
     width: 60%;
