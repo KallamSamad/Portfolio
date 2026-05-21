@@ -29,6 +29,23 @@
         style="border: none; border-radius: 12px; overflow: hidden;">
     </iframe>
     </div>
+ 
+<div class="console-project">
+    <h2>C# Console App</h2>
+<iframe
+    src="https://pfc-391078157863.europe-west1.run.app"
+    width="100%"
+    height="800"
+    style="border:none;">
+</iframe>
+
+    <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank">
+        Open Full App
+    </a>
+</div>
+ 
+
+
 
         </div>
       </div>
