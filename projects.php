@@ -33,11 +33,11 @@
 <div class="console-project">
     <h2>C# Console App</h2>
 <iframe
-    src="https://pfc-391078157863.europe-west1.run.app"
-    width="100%"
-    height="800"
-    style="border:none;">
-</iframe>
+    src="https://pfc-391078157863.europe-west1.run.app/"
+    width="430"
+    height="460"
+    style="border:0;"
+></iframe>
 
     <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank">
         Open Full App
