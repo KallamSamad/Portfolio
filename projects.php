@@ -7,69 +7,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kallam Samad</title>
 </head>
+
 <body>
-    
+
 <?php require_once "nav.php"?>
+
 <div class="maindiv">
-<div class="wrapper"> 
-    <div class="main">
-        
-        <div class="maintop">
 
-         <h1>Project 1 - Brick Breaker</h1>
-         <h3>Touch to start !</h3>
-         <h4>NB - may take time to load</h4>
+    <div class="wrapper"> 
+        <div class="main">
 
-        <div class="game">
-            
-               <iframe
-        src="brick-breaker/build/web/index.html"
-        width="430"
-        height="460"
-        style="border: none; border-radius: 12px; overflow: hidden;">
-    </iframe>
-    </div>
- 
-<div class="console-project">
-    <h2>C# Console App</h2>
-<iframe
-    src="https://pfc-391078157863.europe-west1.run.app/"
-    width="430"
-    height="460"
-    style="border:0;"
-></iframe>
+            <!-- HEADER WITH TYPING ANIMATION -->
+            <h1 class="mainmiddle">
+                <span class="sentencenull">My Projects so far...</span>
+            </h1>
 
-    <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank">
-        Open Full App
-    </a>
-</div>
- 
+            <div class="maintop">
 
+                <!-- PROJECT 1 -->
+                <details class="project-card">
+                    <summary>🎮 Brick Breaker</summary>
 
+                    <div class="project-content">
 
+                        <h3>Touch to start!</h3>
+                        <h4>NB - may take time to load</h4>
+
+                        <iframe
+                            src="brick-breaker/build/web/index.html"
+                            width="430"
+                            height="460"
+                            style="border:none; border-radius:12px; overflow:hidden;">
+                        </iframe>
+
+                    </div>
+                </details>
+
+                <!-- PROJECT 2 -->
+                <details class="project-card">
+                    <summary>💻 C# Console App</summary>
+
+                    <div class="project-content">
+
+                        <iframe
+                            src="https://pfc-391078157863.europe-west1.run.app/"
+                            width="430"
+                            height="460"
+                            style="border:0;">
+                        </iframe>
+
+                        <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank"><br>
+                            Open Full App
+                        </a>
+
+                    </div>
+                </details>
+
+                <!-- PROJECT 3 -->
+                <details class="project-card">
+                    <summary>🤖 TaskBot Full Stack Project</summary>
+
+                    <div class="project-content">
+
+                        <img src="Assets/Images/taskbot.png" style="width:100%; height:auto;">
+
+                        <h4>Staff Credentials</h4>
+
+                        <p><b>Username:</b> knightfall</p>
+                        <p><b>Password:</b> Staff123!</p>
+
+                        <a href="https://taskbot-664411574564.europe-west2.run.app/index.php?page=home">
+                            Link to website
+                        </a>
+
+                    </div>
+                </details>
+
+            </div>
         </div>
-      </div>
- </div>
- <div class="side">
-    <section class="project-card">
-</section>
- <button class="side-toggle"> Contact</button>
- <aside class="side-panel">
-<form action="contact-submit.php" method="POST" id="contactForm">
-   <p>Please fill this form to keep in touch.</p>
-  <input type="text" name="name" placeholder="Your name" required>
-  <input type="email" name="email" placeholder="Your email" required>
-  <textarea name="message" placeholder="Your message" required></textarea>
-  <button type="submit">Send enquiry</button>
-  <p id="formMessage"></p>
-</form>
-</aside>
- </div>
-             <?php require_once "footer.php"?>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side">
+
+
+        <button class="side-toggle">Contact</button>
+
+        <aside class="side-panel">
+            <form action="contact-submit.php" method="POST" id="contactForm">
+                <p>Please fill this form to keep in touch.</p>
+
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+
+                <button type="submit">Send enquiry</button>
+                <p id="formMessage"></p>
+            </form>
+        </aside>
+
+    </div>
+
+    <?php require_once "footer.php"?>
 
 </div>
-  
-
 
 <script>
 const toggle = document.querySelector(".menu-toggle");
@@ -88,6 +129,6 @@ sideToggle.addEventListener("click", () => {
   navCont.classList.remove("active");
 });
 </script>
+
 </body>
- 
 </html>
