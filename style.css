@@ -219,8 +219,18 @@ nav a:hover {
 .mainmiddle .sentence5::after,
 .mainmiddle .sentence6::after {
   content: "█";
-  display: inline;
+  display: inline-block;
+  width: 1ch;
   margin-left: 4px;
+  flex-shrink: 0;
+}
+.mainmiddle .sentence1,
+.mainmiddle .sentence2,
+.mainmiddle .sentence3,
+.mainmiddle .sentence4,
+.mainmiddle .sentence5,
+.mainmiddle .sentence6 {
+  position: relative;
 }
 
 .mainmiddle .sentence1::after {
@@ -296,6 +306,7 @@ nav a:hover {
   background: linear-gradient(180deg, #1f3f70, #285995);
   padding: 2rem;
   padding-bottom: 5rem;
+  border-radius: 20px;
   color: white;
   min-height: 100%;
   height: auto;
@@ -515,6 +526,7 @@ nav a:hover {
   .side {
     width: 35%;
     min-width: 260px;
+    border-radius: 10px;
   }
 
   .mainmiddle {
@@ -663,6 +675,7 @@ nav a:hover {
   .side-panel {
     display: none;
     padding: 1rem;
+    border-radius: 10px;
     background: linear-gradient(180deg, #1b355d, #245191);
     height: auto;
     min-height: 0;
