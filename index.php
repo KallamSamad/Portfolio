@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=55">  
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kallam Samad</title>
@@ -20,13 +20,14 @@
             <p class="sentence1">Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
             <p class="sentence2">The purpose of this website is to showcase my programming ability and why I should be employed.</p>
             <p class="sentence3">Feel free to browse my projects, my resume and blog. I will actively make additions and changes to these projects.</p>
-            <p class="sentence4">Do not hesitate to make any enquries, you can <a href="contact.php">contact me here</a> and fill in the form to keep in touch.</p>
+            <p class="sentence4">Do not hesitate to make any enquries, you can <a href="contact.php">contact me here</a> or fill in the form to keep in touch.</p>
 
         </div>
       </div>
  </div>
  <div class="side">
- <button class="side-toggle">☰ Contact</button>
+
+ <button class="side-toggle"> Contact</button>
  <aside class="side-panel">
 <form action="contact-submit.php" method="POST" id="contactForm">
    <p>Please fill this form to keep in touch.</p>
