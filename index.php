@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css?v=51">  
+    <link rel="stylesheet" href="style.css?v=55">  
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kallam Samad</title>
@@ -26,9 +26,7 @@
       </div>
  </div>
  <div class="side">
-    <section class="project-card">
 
-</section>
  <button class="side-toggle"> Contact</button>
  <aside class="side-panel">
 <form action="contact-submit.php" method="POST" id="contactForm">
