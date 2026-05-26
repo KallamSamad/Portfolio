@@ -390,8 +390,20 @@ nav a:hover {
   background: #F9F9F9;
   border: 1px solid rgba(255, 255, 255, 0.08);
   overflow: hidden;
+  width: 75%;
+  margin-left: 6vh;
 }
- 
+ img[src$=".svg"] {
+  filter: brightness(0) invert(1);
+}
+.game-frame {
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 430 / 460;
+  border: none;
+  border-radius: 12px;
+  display: block;
+}
 .project-card summary {
   padding: 15px;
   font-size: 18px;
@@ -401,14 +413,34 @@ nav a:hover {
   background: #1f3f70;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 }
-
 .project-card summary:hover {
   background: #1f3f70;
 }
+.project-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
 
+.project-summary img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1); /* makes SVG white */
+}
+.project-iframe {
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 430 / 460;
+  border: none;
+  border-radius: 12px;
+  display: block;
+}
 .project-content {
   padding: 15px;
   color: #245191;

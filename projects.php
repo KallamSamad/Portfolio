@@ -26,62 +26,66 @@
 
                 <!-- PROJECT 1 -->
                 <details class="project-card">
-                    <summary>🎮 Brick Breaker</summary>
+                    <summary style="display:flex; align-items:space-between;">
+  <img src="Assets/Images/brick.svg" style="width:5%; height:auto;">
+  Brick Breaker</summary>
 
                     <div class="project-content">
 
                         <h3>Touch to start!</h3>
                         <h4>NB - may take time to load</h4>
 
-                        <iframe
-                            src="brick-breaker/build/web/index.html"
-                            width="430"
-                            height="460"
-                            style="border:none; border-radius:12px; overflow:hidden;">
-                        </iframe>
+                        <iframe 
+  src="brick-breaker/build/web/index.html"
+  class="game-frame">
+</iframe>
 
                     </div>
                 </details>
 
                 <!-- PROJECT 2 -->
                 <details class="project-card">
-                    <summary>💻 C# Console App</summary>
+  <summary class="project-summary">
+    <img src="Assets/Images/terminal.svg">
+    C# Console Project
+  </summary>
 
-                    <div class="project-content">
+  <div class="project-content">
 
-                        <iframe
-                            src="https://pfc-391078157863.europe-west1.run.app/"
-                            width="430"
-                            height="460"
-                            style="border:0;">
-                        </iframe>
+    <iframe
+      src="https://pfc-391078157863.europe-west1.run.app/"
+      class="project-iframe">
+    </iframe>
 
-                        <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank"><br>
-                            Open Full App
-                        </a>
+    <a href="https://pfc-391078157863.europe-west1.run.app/" target="_blank">
+      Open Full App
+    </a>
 
-                    </div>
-                </details>
+  </div>
+</details>
 
                 <!-- PROJECT 3 -->
-                <details class="project-card">
-                    <summary>🤖 TaskBot Full Stack Project</summary>
+               <details class="project-card">
+  <summary class="project-summary">
+    <img src="Assets/Images/bot.svg">
+    TaskBot Full Stack Project
+  </summary>
 
-                    <div class="project-content">
+  <div class="project-content">
 
-                        <img src="Assets/Images/taskbot.png" style="width:100%; height:auto;">
+    <img src="Assets/Images/taskbot.png" class="project-img">
 
-                        <h4>Staff Credentials</h4>
+    <h4>Staff Credentials</h4>
 
-                        <p><b>Username:</b> knightfall</p>
-                        <p><b>Password:</b> Staff123!</p>
+    <p><b>Username:</b> knightfall</p>
+    <p><b>Password:</b> Staff123!</p>
 
-                        <a href="https://taskbot-664411574564.europe-west2.run.app/index.php?page=home">
-                            Link to website
-                        </a>
+    <a href="https://taskbot-664411574564.europe-west2.run.app/index.php?page=home">
+      Link to website
+    </a>
 
-                    </div>
-                </details>
+  </div>
+</details>
 
             </div>
         </div>
