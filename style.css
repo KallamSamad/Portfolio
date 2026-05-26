@@ -437,7 +437,32 @@ nav a:hover {
   gap: 10px;
   cursor: pointer;
 }
+.project-justify ul {
+  list-style: disc !important;
+  padding-left: 20px;
+  color: #2f6bc2 !important; 
+}
+.project-justify p {
+  list-style: disc !important;
+  padding-left: 20px;
+  color: #2f6bc2 !important; 
+}
+.project-justify h3 {
+  list-style: disc !important;
+  padding-left: 20px;
+  color: #2f6bc2 !important; 
+}
+.project-justify li {
+  list-style: disc !important;
+}
 
+.project-desc li {
+  margin-bottom: 6px;
+}
+
+.project-desc li {
+  margin-bottom: 6px;
+}
 .project-summary img {
   width: 20px;
   height: 20px;
