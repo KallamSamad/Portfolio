@@ -1,3 +1,48 @@
+#splash {
+  position: fixed;
+  inset: 0;
+  background: #0f0f18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+
+  opacity: 0;
+  transform: scale(1.02);
+  visibility: hidden;
+
+  transition: opacity 0.8s ease, transform 0.8s ease, visibility 0.8s;
+}
+
+#splash.show {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+}
+
+#splash.hide {
+  opacity: 0;
+  transform: scale(1.05);
+  visibility: hidden;
+}
+@keyframes textIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE tweaks */
+@media (max-width: 480px) {
+  .splash-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    padding: 0 1.5rem; /* left + right equal = best UX */
+  }
+}
 * {
   box-sizing: border-box;
   padding: 0;

@@ -15,6 +15,10 @@
     <div class="main">
         
         <div class="maintop"></div>
+<div id="splash">
+  <h1 class="splash-title">Kallam Samad</h1>
+<p class="splash-sub">Computer Science Portfolio</p>
+</div>
 
         <div class="mainmiddle">
             <p class="sentence1">Hello! I'm Kallam, a computer science student from Sheffield Hallam University.</p>
@@ -61,7 +65,20 @@ sideToggle.addEventListener("click", () => {
   side.classList.toggle("active");
   navCont.classList.remove("active");
 });
+window.addEventListener("load", () => {
+  const splash = document.getElementById("splash");
+
+  // fade IN
+  splash.classList.add("show");
+
+  // fade OUT after delay
+  setTimeout(() => {
+    splash.classList.remove("show");
+    splash.classList.add("hide");
+  }, 2000);
+});
 </script>
+
 </body>
  
 </html>
