@@ -43,7 +43,6 @@
 <script>
 const toggle = document.querySelector(".menu-toggle");
 const navCont = document.querySelector(".nav-cont");
-const formDisable=document.querySelector(".")
 const sideToggle = document.querySelector(".side-toggle");
 const side = document.querySelector(".side");
 

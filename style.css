@@ -17,6 +17,11 @@
   transition: opacity 0.8s ease, transform 0.8s ease, visibility 0.8s;
 }
 
+#submit:disabled{
+  background-color:#AAB4C0 !important;
+  color:#E5E7EB;
+  border: #D1D5DB solid 1px;
+}
 #splash.show {
   opacity: 1;
   transform: scale(1);
